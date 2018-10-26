@@ -5,6 +5,6 @@ describe("GET / ", function() {
     //navigate to root and check the the response is "hello world"
     request(app)
       .get("/")
-      .expect("Hello world!!!!", done)
+      .expect("Hello world", done)
   })
 })
